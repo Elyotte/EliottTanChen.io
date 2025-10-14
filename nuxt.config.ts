@@ -9,5 +9,5 @@ export default defineNuxtConfig({
       title : 'Eliott TAN'
 
     }
-  }
+  },
 })

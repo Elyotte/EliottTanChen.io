@@ -1,30 +1,48 @@
+
 <template>
-  <div class="homepage">
-    <h1 class="name">Eliott TAN</h1>
+  <div>
+    <section class="divider">
+      <div class = "nameBox">
+        <h1 class="name"> Eliott TAN </h1>
+      </div>
+    </section>    
+
+    <section class="body">
+      <h1>Bienvenue sur mon portfolio ! codé avec nuxt et vue test texte pour voir si ça saute la ligne </h1>
+        <Text class ="st">Le portfolio est en construction veuillez revenir plus tard !</Text>
+    </section>
   </div>
 </template>
 
-<script setup>
-// Aucun script nécessaire pour l'instant
-</script>
+<style>
 
-<style scoped>
-.homepage {
-  width: 100vw;
-  height: 100vh;
-  /* Image de fond */
-  background-image: url('https://plus.unsplash.com/premium_photo-1759354802989-fe550925a411?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
-  background-size: cover;
-  background-position: center;
+@import url("assets/main.css");
+
+.divider {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("https://plus.unsplash.com/premium_photo-1759354802989-fe550925a411?q=80&w=1171&auto=format&fit=crop");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+.name{
+  justify-content: center;
+  color:azure;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
-.name {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
-  text-align: center;
+.nameBox{
+  background-color:rgba(0, 0, 0, 0.144);
+}
+
+.bandroll{
+  background-color: black;
 }
 </style>
+

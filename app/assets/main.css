@@ -1,0 +1,13 @@
+
+body{
+  background-color: #311e35;
+  color:antiquewhite;
+  justify-content: center;
+  display: flex;
+}
+
+.st{
+display: flex;
+justify-content: center;
+size:1rem;
+}
