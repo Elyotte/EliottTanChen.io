@@ -1,0 +1,12 @@
+.redTitle{
+    color:red;
+    
+}
+.redTitle:hover{
+    color:green;
+}
+
+body{
+    background-color: black;
+    color:beige;
+}
