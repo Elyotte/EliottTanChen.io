@@ -2,11 +2,71 @@
     color:red;
     
 }
+
 .redTitle:hover{
     color:green;
 }
 
 body{
-    background-color: black;
+    background-color: rgb(10, 0, 20);
     color:beige;
+}
+
+.hero{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+  background-image: url("https://plus.unsplash.com/premium_photo-1759354802989-fe550925a411?q=80&w=1171&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+}
+
+.bande{
+    background-color: beige;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+
+.bandeText{
+    display: flex;
+    justify-content: center;
+}
+
+.gridProject{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+    gap:2rem;
+    padding: 3rem;
+    background-color: black;
+    justify-items: center;
+}
+
+
+.project {
+  background-color: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  aspect-ratio: 1/1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background-color: rgba(255,255,255,0.15);
+  transform: translateY(-5px);
 }
