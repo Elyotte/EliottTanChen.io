@@ -10,6 +10,7 @@
 body{
     background-color: rgb(10, 0, 20);
     color:beige;
+    padding-top :70px;
 }
 
 .hero{
@@ -69,4 +70,29 @@ body{
 .project:hover {
   background-color: rgba(255,255,255,0.15);
   transform: translateY(-5px);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00bfff;
 }
