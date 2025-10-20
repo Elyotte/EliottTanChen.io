@@ -56,15 +56,22 @@ body{
 
 
 .project {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
   background-color: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 12px;
   aspect-ratio: 1/1;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+}
+
+.project.truthCollector{
+  background-image: url("../Resources/Thorfinn.jpg");
+  background-size: auto;
 }
 
 .project:hover {
@@ -99,3 +106,5 @@ body{
 .navbar a:hover {
   color: #00bfff;
 }
+
+
