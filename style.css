@@ -11,6 +11,8 @@ body{
     background-color: rgb(10, 0, 20);
     color:beige;
     padding-top :70px;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .hero{
@@ -157,4 +159,16 @@ video {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.title{
+  font-size: 3rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+h1{
+  font-size: 3rem;
 }
